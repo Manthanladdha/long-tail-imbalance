@@ -1,0 +1,8 @@
+BMA (tau=1.25): {'cb': np.float64(0.6655), 'syn_eq': np.float64(0.6479), 'dup_eq': np.float64(0.6646), 'vae_eq': np.float64(0.6735), 'syn_dose': np.float64(0.6609), 'syn_gate': np.float64(0.6718), 'loop_final': np.float64(0.6528)}
+syn_eq - dup_eq: -0.0163  95% CI [-0.0341, +0.0011]
+syn_eq - vae_eq: -0.0255  95% CI [-0.0443, -0.0068]
+syn_eq - cb: -0.0173  95% CI [-0.0335, -0.0002]
+syn_dose - syn_eq: +0.0130  95% CI [-0.0037, +0.0306]
+syn_gate - syn_eq: +0.0238  95% CI [+0.0070, +0.0411]
+loop_final - cb: -0.0125  95% CI [-0.0290, +0.0023]
+loop_final - syn_eq: +0.0048  95% CI [-0.0132, +0.0233]

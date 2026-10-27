@@ -1,0 +1,9 @@
+using prompt: descriptive | gate pass: True
+24 / 24 chunks done
+         n  sharp_ratio  p_target  gate_pass
+class                                       
+AK     300        0.563     0.426      0.107
+DF     300        0.549     0.463      0.100
+SCC    300        0.727     0.600      0.367
+VASC   300        0.619     0.930      0.370
+G3 DONE

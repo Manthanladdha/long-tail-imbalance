@@ -1,0 +1,83 @@
+loop_r0_s0: 23318 training images
+  ep 1/12 loss 1.363 | val bma 0.469 | 73s
+  ep 2/12 loss 0.798 | val bma 0.563 | 72s
+  ep 3/12 loss 0.654 | val bma 0.563 | 72s
+  ep 4/12 loss 0.549 | val bma 0.626 | 72s
+  ep 5/12 loss 0.470 | val bma 0.579 | 65s
+  ep 6/12 loss 0.389 | val bma 0.602 | 65s
+  ep 7/12 loss 0.331 | val bma 0.577 | 65s
+  ep 8/12 loss 0.281 | val bma 0.597 | 64s
+  ep 9/12 loss 0.236 | val bma 0.589 | 64s
+  ep 10/12 loss 0.201 | val bma 0.593 | 64s
+  ep 11/12 loss 0.191 | val bma 0.592 | 64s
+  ep 12/12 loss 0.188 | val bma 0.594 | 65s
+{'round': 0, 'dose_AK': 100, 'dose_DF': 100, 'dose_VASC': 100, 'dose_SCC': 100, 'gain_AK': 0.029, 'gain_DF': 0.02, 'gain_VASC': 0.143, 'gain_SCC': -0.056}
+loop_r1_s0: 23279 training images
+  ep 1/12 loss 1.365 | val bma 0.488 | 73s
+  ep 2/12 loss 0.795 | val bma 0.588 | 72s
+  ep 3/12 loss 0.642 | val bma 0.534 | 65s
+  ep 4/12 loss 0.538 | val bma 0.566 | 65s
+  ep 5/12 loss 0.468 | val bma 0.582 | 64s
+  ep 6/12 loss 0.390 | val bma 0.560 | 64s
+  ep 7/12 loss 0.332 | val bma 0.589 | 72s
+  ep 8/12 loss 0.276 | val bma 0.585 | 64s
+  ep 9/12 loss 0.237 | val bma 0.574 | 64s
+  ep 10/12 loss 0.204 | val bma 0.570 | 64s
+  ep 11/12 loss 0.188 | val bma 0.586 | 64s
+  ep 12/12 loss 0.181 | val bma 0.582 | 64s
+{'round': 1, 'dose_AK': 100, 'dose_DF': 100, 'dose_VASC': 111, 'dose_SCC': 50, 'gain_AK': -0.046, 'gain_DF': -0.163, 'gain_VASC': -0.161, 'gain_SCC': -0.048}
+loop_r2_s0: 23198 training images
+  ep 1/12 loss 1.373 | val bma 0.482 | 72s
+  ep 2/12 loss 0.803 | val bma 0.599 | 72s
+  ep 3/12 loss 0.651 | val bma 0.534 | 64s
+  ep 4/12 loss 0.547 | val bma 0.587 | 64s
+  ep 5/12 loss 0.469 | val bma 0.575 | 64s
+  ep 6/12 loss 0.405 | val bma 0.577 | 64s
+  ep 7/12 loss 0.339 | val bma 0.567 | 64s
+  ep 8/12 loss 0.275 | val bma 0.591 | 64s
+  ep 9/12 loss 0.240 | val bma 0.584 | 64s
+  ep 10/12 loss 0.207 | val bma 0.582 | 64s
+  ep 11/12 loss 0.195 | val bma 0.575 | 65s
+  ep 12/12 loss 0.186 | val bma 0.571 | 65s
+{'round': 2, 'dose_AK': 50, 'dose_DF': 50, 'dose_VASC': 55, 'dose_SCC': 25, 'gain_AK': 0.046, 'gain_DF': 0.163, 'gain_VASC': 0.089, 'gain_SCC': -0.095}
+final doses: {'AK': 32, 'DF': 30, 'VASC': 82, 'SCC': 25}
+loop_final_s0: 23225 training images
+  ep 1/12 loss 1.367 | val bma 0.447 | 72s
+  ep 2/12 loss 0.800 | val bma 0.599 | 72s
+  ep 3/12 loss 0.640 | val bma 0.564 | 64s
+  ep 4/12 loss 0.556 | val bma 0.592 | 65s
+  ep 5/12 loss 0.473 | val bma 0.563 | 64s
+  ep 6/12 loss 0.402 | val bma 0.595 | 64s
+  ep 7/12 loss 0.337 | val bma 0.570 | 64s
+  ep 8/12 loss 0.279 | val bma 0.615 | 72s
+  ep 9/12 loss 0.239 | val bma 0.603 | 64s
+  ep 10/12 loss 0.213 | val bma 0.587 | 64s
+  ep 11/12 loss 0.190 | val bma 0.588 | 64s
+  ep 12/12 loss 0.184 | val bma 0.588 | 64s
+loop_final_s1: 23225 training images
+  ep 1/12 loss 1.363 | val bma 0.537 | 72s
+  ep 2/12 loss 0.794 | val bma 0.522 | 64s
+  ep 3/12 loss 0.647 | val bma 0.554 | 72s
+  ep 4/12 loss 0.539 | val bma 0.552 | 65s
+  ep 5/12 loss 0.465 | val bma 0.585 | 72s
+  ep 6/12 loss 0.385 | val bma 0.603 | 72s
+  ep 7/12 loss 0.324 | val bma 0.583 | 64s
+  ep 8/12 loss 0.271 | val bma 0.577 | 64s
+  ep 9/12 loss 0.236 | val bma 0.593 | 64s
+  ep 10/12 loss 0.202 | val bma 0.579 | 64s
+  ep 11/12 loss 0.185 | val bma 0.598 | 64s
+  ep 12/12 loss 0.180 | val bma 0.601 | 64s
+loop_final_s2: 23225 training images
+  ep 1/12 loss 1.399 | val bma 0.516 | 72s
+  ep 2/12 loss 0.803 | val bma 0.576 | 72s
+  ep 3/12 loss 0.641 | val bma 0.551 | 64s
+  ep 4/12 loss 0.541 | val bma 0.584 | 72s
+  ep 5/12 loss 0.461 | val bma 0.569 | 64s
+  ep 6/12 loss 0.397 | val bma 0.593 | 72s
+  ep 7/12 loss 0.327 | val bma 0.591 | 64s
+  ep 8/12 loss 0.282 | val bma 0.595 | 72s
+  ep 9/12 loss 0.231 | val bma 0.588 | 64s
+  ep 10/12 loss 0.204 | val bma 0.595 | 72s
+  ep 11/12 loss 0.188 | val bma 0.579 | 65s
+  ep 12/12 loss 0.179 | val bma 0.586 | 65s
+G6 DONE

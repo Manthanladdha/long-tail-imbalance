@@ -1,0 +1,21 @@
+pool: 25331 images, 8 classes
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/tmp/ipykernel_49/922048896.py:31: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  x = torch.from_numpy(np.ascontiguousarray(X[i:i + 128])).to(DEV).permute(0, 3, 1, 2).float() / 255
+features (25331, 384) | 138s
+fold 1/5 | 166s
+fold 2/5 | 192s
+fold 3/5 | 220s
+fold 4/5 | 247s
+fold 5/5 | 272s
+
+           n   tail  oof_recall  ovr_auc  d_oof_recall  d_shrunk  d_recall_lo  d_auc  d_logloss  d_bal_purity
+MEL    4522  False        0.55     0.83          0.55      0.54         0.49   0.97       0.46          0.82
+NV    12875  False        0.71     0.91          0.10      0.08         0.00   0.33       0.00          0.34
+BCC    3323  False        0.59     0.93          0.44      0.44         0.38   0.20       0.39          0.79
+AK      867   True        0.46     0.90          0.79      0.79         0.77   0.46       0.93          0.60
+BKL    2624  False        0.47     0.82          0.76      0.76         0.71   1.00       0.73          1.00
+DF      239   True        0.58     0.92          0.45      0.45         0.48   0.28       0.83          0.38
+VASC    253   True        0.74     0.96          0.00      0.00         0.01   0.00       0.22          0.00
+SCC     628   True        0.39     0.89          1.00      1.00         1.00   0.49       1.00          0.69
+D1 DONE | 272s

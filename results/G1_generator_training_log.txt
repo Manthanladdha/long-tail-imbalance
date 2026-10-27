@@ -1,0 +1,13 @@
+[RAM: kernel 4.2 GB | free 27.9 GB | total 34 GB] G1 start
+{'AK': 692, 'DF': 190, 'VASC': 197, 'SCC': 502}
+[RAM: kernel 4.2 GB | free 27.9 GB | total 34 GB] G1 data loaded
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py:205: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+An error occurred while trying to fetch stable-diffusion-v1-5/stable-diffusion-inpainting: stable-diffusion-v1-5/stable-diffusion-inpainting does not appear to have a file named diffusion_pytorch_model.safetensors.
+Defaulting to unsafe serialization. Pass `allow_pickle=False` to raise an error instead.
+An error occurred while trying to fetch stable-diffusion-v1-5/stable-diffusion-inpainting: stable-diffusion-v1-5/stable-diffusion-inpainting does not appear to have a file named diffusion_pytorch_model.safetensors.
+Defaulting to unsafe serialization. Pass `allow_pickle=False` to raise an error instead.
+[RAM: kernel 4.5 GB | free 27.4 GB | total 34 GB] G1 generator loaded
+resumed from step 1500
+G1 DONE
+[RAM: kernel 4.0 GB | free 27.9 GB | total 34 GB] G1 cleaned up

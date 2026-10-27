@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+scikit-image
+scipy
+matplotlib
+pillow
+tqdm
+diffusers
+transformers
+peft
+accelerate
+psutil

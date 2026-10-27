@@ -1,0 +1,17 @@
+gate pass rate: {'AK': 0.11, 'DF': 0.1, 'SCC': 0.37, 'VASC': 0.37} | doses: {'AK': 128, 'DF': 75, 'VASC': 50, 'SCC': 300}
+syn_eq 0 done
+dup_eq 0 done
+vae_eq 0 done
+syn_dose 0 done
+syn_gate 0 done
+syn_eq 1 done
+dup_eq 1 done
+vae_eq 1 done
+syn_dose 1 done
+syn_gate 1 done
+syn_eq 2 done
+dup_eq 2 done
+vae_eq 2 done
+syn_dose 2 done
+syn_gate 2 done
+G4 DONE

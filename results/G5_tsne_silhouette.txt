@@ -1,0 +1,20 @@
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to /root/.cache/torch/hub/checkpoints/efficientnet_b0_rwightman-7f5810bc.pth
+100%|██████████| 20.5M/20.5M [00:00<00:00, 129MB/s] 
+tsne_cb_s0: 23056 training images
+/tmp/ipykernel_49/84898355.py:33: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  to_gpu = lambda xb: torch.from_numpy(np.ascontiguousarray(xb)).to(DEV, non_blocking=True).permute(0, 3, 1, 2).float() / 255.0
+  ep 1/12 loss 1.363 | val bma 0.480 | 121s
+  ep 2/12 loss 0.804 | val bma 0.613 | 72s
+  ep 3/12 loss 0.651 | val bma 0.521 | 64s
+  ep 4/12 loss 0.557 | val bma 0.565 | 64s
+  ep 5/12 loss 0.466 | val bma 0.594 | 65s
+  ep 6/12 loss 0.391 | val bma 0.614 | 72s
+  ep 7/12 loss 0.330 | val bma 0.583 | 64s
+  ep 8/12 loss 0.279 | val bma 0.597 | 64s
+  ep 9/12 loss 0.244 | val bma 0.598 | 64s
+  ep 10/12 loss 0.213 | val bma 0.595 | 64s
+  ep 11/12 loss 0.191 | val bma 0.604 | 64s
+  ep 12/12 loss 0.180 | val bma 0.598 | 64s
+silhouette (8 classes): 0.031
+silhouette real vs synthetic: 0.016 | real vs VAE-only: 0.002
+G5 DONE
